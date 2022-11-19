@@ -1,0 +1,15 @@
+/*List of The Top 5 Social Media Sites & Platforms 2022 according to Search Engine Journal by the billion */
+Skills used : CREATE, INSERT, SELECT
+*/
+/* This populates the top 5 Social Media Sites & Platforms by Active Users (MAU) by the billions
+
+CREATE TABLE Platforms (id INTEGER PRIMARY KEY, SocialMediaPlatform TEXT, ActiveUserMAU INTEGER);
+
+INSERT INTO Platforms VALUES (1, "Facebook", 2.9);
+INSERT INTO Platforms VALUES (2, "Youtube", 2.2);
+INSERT INTO Platforms VALUES (3, "WhatsApp", 2.0);
+INSERT INTO Platforms VALUES (4, "Instagram", 2.0);
+INSERT INTO Platforms VALUES (5, "TikTok", 1);
+
+SELECT* from Platforms;
+
