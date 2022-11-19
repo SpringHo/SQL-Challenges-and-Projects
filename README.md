@@ -18,5 +18,6 @@ INSERT INTO Platforms VALUES (4, "Instagram", 2.0);
 INSERT INTO Platforms VALUES (5, "TikTok", 1);
 
 SELECT* from Platforms;
-![image](https://user-images.githubusercontent.com/104226368/202838274-1a53d43a-74fe-4216-b906-1023028422f3.png)
+
 ```
+![image](https://user-images.githubusercontent.com/104226368/202838274-1a53d43a-74fe-4216-b906-1023028422f3.png)
