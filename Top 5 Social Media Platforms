@@ -13,4 +13,4 @@ INSERT INTO Platforms VALUES (5, "TikTok", 1);
 
 SELECT* from Platforms;
 
-<img width="295" alt="image" src="https://media.discordapp.net/attachments/1043411245287612417/1043411407976284180/image.png?width=705&height=495">
+![image](https://user-images.githubusercontent.com/104226368/202838199-117224e3-e26a-4b90-ae47-0ed459fa5c16.png)
