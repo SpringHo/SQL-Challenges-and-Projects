@@ -13,7 +13,7 @@ Here you'll see my work in progress
 ###
 - ST Request: Populate the top 5 social media platforms and have the value of active users(MAU) 
 - Result: This populates the top 5 Social Media Sites & Platforms by Active Users (MAU) by the billions
-- Steps: 
+**Steps:**
 ```sql
 CREATE TABLE Platforms (id INTEGER PRIMARY KEY, SocialMediaPlatform TEXT, ActiveUserMAU INTEGER);
 
