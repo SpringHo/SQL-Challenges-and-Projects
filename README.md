@@ -5,7 +5,7 @@ Here you'll see my work in progress
 
 
 
-[b] List of The Top 5 Social Media Sites & Platforms 2022 according to Search Engine Journal by the billion [/b]
+[b] List of The Top 5 Social Media Sites & Platforms 2022 according to Search Engine Journal by the billion [b/]
 
 
 ```sql
