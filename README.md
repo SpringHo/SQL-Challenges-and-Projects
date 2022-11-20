@@ -5,6 +5,8 @@ Here you'll see my work in progress
 ST REQUEST:
 RESULT:
 STEPS: 
+###
+
 
 ## List of The Top 5 Social Media Sites & Platforms 2022 according to Search Engine Journal by the billion 
 - Skills used : CREATE, SELECT
@@ -24,16 +26,8 @@ SELECT* from Platforms;
 <img src="https://user-images.githubusercontent.com/104226368/202838274-1a53d43a-74fe-4216-b906-1023028422f3.png" width="450" height="350">
 
 
-Challenge: Box office hits database
--Skills used : CREATE, SELECT, ORDER BY, WHERE
-
-## Analyzing Traffic Sources
-
-**Traffic Source Analysis**
-- Understanding where the customers are coming from and which channels are driving the highest quality traffic. 
-- Typically, traffic sources are email, social media, search engine, and direct traffic. 
-- Looking at conversion rate (CVR) which is the percentage of the traffic that converts into sales or revenue activity.
-
+## Challenge: Box office hits database
+- Skills used : CREATE, SELECT, ORDER BY, WHERE
 
 ```sql
 CREATE TABLE movies (id INTEGER PRIMARY KEY, name TEXT, release_year INTEGER);
