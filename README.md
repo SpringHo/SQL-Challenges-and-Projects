@@ -27,8 +27,8 @@ INSERT INTO Platforms VALUES (5, "TikTok", 1);
 SELECT* from Platforms;
 
 ```
-**Result**
-###
+**Result:**
+
 <img src="https://user-images.githubusercontent.com/104226368/202838274-1a53d43a-74fe-4216-b906-1023028422f3.png" width="480" height="350">
 
 #
