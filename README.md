@@ -2,18 +2,18 @@
 
 This is where I'll be uploading my progress of learning SQL through Challanges and Projects before I complie it into a pretty portfolio
 Here you'll see my work in progress
-- ST REQUEST: 
-- RESULT: 
-- STEPS: 
+- ST Request: 
+- Result: 
+- Steps: 
 ###
 
 
 ## List of The Top 5 Social Media Sites & Platforms 2022 according to Search Engine Journal by the billion 
 - Skills used : CREATE, INSERT SELECT
 ###
-- ST REQUEST: Populate the top 5 social media platforms and have the value of active users(MAU) 
-- RESULT: This populates the top 5 Social Media Sites & Platforms by Active Users (MAU) by the billions
-- STEPS: CREATE table, INSERT data, SELECT data by pulling it from database
+- ST Request: Populate the top 5 social media platforms and have the value of active users(MAU) 
+- Result: This populates the top 5 Social Media Sites & Platforms by Active Users (MAU) by the billions
+- Steps: 
 ```sql
 CREATE TABLE Platforms (id INTEGER PRIMARY KEY, SocialMediaPlatform TEXT, ActiveUserMAU INTEGER);
 
@@ -31,7 +31,10 @@ SELECT* from Platforms;
 
 ## Challenge: Box office hits database
 - Skills used : CREATE, SELECT, ORDER BY, WHERE
-
+###
+- ST Request: 
+- Result: 
+- Steps:
 ```sql
 CREATE TABLE movies (id INTEGER PRIMARY KEY, name TEXT, release_year INTEGER);
 INSERT INTO movies VALUES (1, "Avatar", 2009);
