@@ -27,7 +27,7 @@ INSERT INTO Platforms VALUES (5, "TikTok", 1);
 SELECT* from Platforms;
 
 ```
-- Result:
+**Result**
 <img src="https://user-images.githubusercontent.com/104226368/202838274-1a53d43a-74fe-4216-b906-1023028422f3.png" width="480" height="350">
 
 #
@@ -50,5 +50,5 @@ INSERT INTO movies VALUES (6, "Disney's Up", 2009);
 SELECT* FROM movies;
 SELECT* FROM movies WHERE release_year >2000 ORDER BY release_year;
 ```
-- Result: Populate missing data and organizing the list for movies that were released in the year 2000 ot later and sorting the results
+**Result:** Populate missing data and organizing the list for movies that were released in the year 2000 ot later and sorting the results
 <img src="https://user-images.githubusercontent.com/104226368/202881078-19ea320a-aa35-44b7-be04-2210483b97d8.png" width="480" height="350">
