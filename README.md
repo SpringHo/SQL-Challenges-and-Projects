@@ -25,7 +25,7 @@ SELECT* from Platforms;
 
 
 Challenge: Box office hits database
-Skills used : CREATE, SELECT, ORDER BY, WHERE
+-Skills used : CREATE, SELECT, ORDER BY, WHERE
 ```sql
 CREATE TABLE movies (id INTEGER PRIMARY KEY, name TEXT, release_year INTEGER);
 INSERT INTO movies VALUES (1, "Avatar", 2009);
