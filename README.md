@@ -13,7 +13,6 @@ Here you'll see my work in progress
 - Skills used : CREATE, INSERT SELECT
 ###
 - ST Request: Populate the top 5 social media platforms and have the value of active users(MAU) 
-- Result: This populates the top 5 Social Media Sites & Platforms by Active Users (MAU) by the billions
 ###
 **Steps:**
 ```sql
@@ -28,15 +27,17 @@ INSERT INTO Platforms VALUES (5, "TikTok", 1);
 SELECT* from Platforms;
 
 ```
+- Result:
 <img src="https://user-images.githubusercontent.com/104226368/202838274-1a53d43a-74fe-4216-b906-1023028422f3.png" width="480" height="350">
 
 #
 ## Challenge: Box office hits database
 - Skills used : CREATE, SELECT, ORDER BY, WHERE
 ###
-- ST Request: 
-- Result: 
-- Steps:
+- ST Request: Database contains an incomplete list of box office hits and their release year. In this challenge, you're going to get the results back out of the database, retrieves only the movies that were released in the year 2000 or later, not before. Sort the results so that the earlier movies are listed first.
+
+###
+**Steps:**
 ```sql
 CREATE TABLE movies (id INTEGER PRIMARY KEY, name TEXT, release_year INTEGER);
 INSERT INTO movies VALUES (1, "Avatar", 2009);
@@ -49,4 +50,5 @@ INSERT INTO movies VALUES (6, "Disney's Up", 2009);
 SELECT* FROM movies;
 SELECT* FROM movies WHERE release_year >2000 ORDER BY release_year;
 ```
+- Result: Populate missing data and organizing the list for movies that were released in the year 2000 ot later and sorting the results
 <img src="https://user-images.githubusercontent.com/104226368/202881078-19ea320a-aa35-44b7-be04-2210483b97d8.png" width="480" height="350">
