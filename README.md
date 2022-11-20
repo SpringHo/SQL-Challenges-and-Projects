@@ -6,8 +6,8 @@ ST REQUEST:
 RESULT:
 STEPS: 
 
- List of The Top 5 Social Media Sites & Platforms 2022 according to Search Engine Journal by the billion 
-Skills used : CREATE, SELECT
+## List of The Top 5 Social Media Sites & Platforms 2022 according to Search Engine Journal by the billion 
+- Skills used : CREATE, SELECT
 
 ```sql
 CREATE TABLE Platforms (id INTEGER PRIMARY KEY, SocialMediaPlatform TEXT, ActiveUserMAU INTEGER);
