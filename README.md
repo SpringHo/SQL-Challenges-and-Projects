@@ -4,7 +4,8 @@ This is where I'll be uploading my progress of learning SQL through Challanges a
 Here you'll see my work in progress
 - ST Request: 
 - Result: 
-- Steps: 
+###
+**Steps:**
 ###
 
 
@@ -29,7 +30,7 @@ SELECT* from Platforms;
 ```
 <img src="https://user-images.githubusercontent.com/104226368/202838274-1a53d43a-74fe-4216-b906-1023028422f3.png" width="480" height="350">
 
-
+#
 ## Challenge: Box office hits database
 - Skills used : CREATE, SELECT, ORDER BY, WHERE
 ###
