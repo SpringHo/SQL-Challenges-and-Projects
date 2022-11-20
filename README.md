@@ -26,6 +26,15 @@ SELECT* from Platforms;
 
 Challenge: Box office hits database
 -Skills used : CREATE, SELECT, ORDER BY, WHERE
+
+## Analyzing Traffic Sources
+
+**Traffic Source Analysis**
+- Understanding where the customers are coming from and which channels are driving the highest quality traffic. 
+- Typically, traffic sources are email, social media, search engine, and direct traffic. 
+- Looking at conversion rate (CVR) which is the percentage of the traffic that converts into sales or revenue activity.
+
+
 ```sql
 CREATE TABLE movies (id INTEGER PRIMARY KEY, name TEXT, release_year INTEGER);
 INSERT INTO movies VALUES (1, "Avatar", 2009);
