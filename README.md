@@ -21,4 +21,4 @@ SELECT* from Platforms;
 
 ```
 
-<img src="https://user-images.githubusercontent.com/104226368/202838274-1a53d43a-74fe-4216-b906-1023028422f3.png" width="350" height="250">
+<img src="https://user-images.githubusercontent.com/104226368/202838274-1a53d43a-74fe-4216-b906-1023028422f3.png" width="450" height="350">
