@@ -84,7 +84,7 @@ INSERT INTO animal_shelter VALUES (15, "dog", "Bulldog mix", 3,200);
 ```
 
 ###
-- ST Request: Which animal has adoption fees under $100, sort by cost from lowest to highest. Also make a table with only adoptable cats, sort by age.
+- ST Request: Which animal has adoption fees under $100, sort by cost from lowest to highest. Also make a seperate table with only adoptable cats, sort by age.
 
 ###
 **Steps:**
