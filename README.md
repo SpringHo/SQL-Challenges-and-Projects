@@ -84,7 +84,7 @@ INSERT INTO animal_shelter VALUES (15, "dog", "Bulldog mix", 3,200);
 ```
 **Result:**
 
-<img src="https://user-images.githubusercontent.com/104226368/202962254-c25ef01d-9c76-495c-932d-21a3fcb36d81.png" width="480" height="350">
+<img src="https://user-images.githubusercontent.com/104226368/202962254-c25ef01d-9c76-495c-932d-21a3fcb36d81.png" width="380" height="450">
 
 ###
 - ST Request: Which animal has adoption fees under $100, sort by cost from lowest to highest. Also make a seperate table with only adoptable cats, sort by age.
