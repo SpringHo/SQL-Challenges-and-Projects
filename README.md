@@ -9,7 +9,7 @@ Here you'll see my work in progress
 ###
 
 #
-## List of The Top 5 Social Media Sites & Platforms 2022 according to Search Engine Journal by the billion 
+## Challenge: Make a top 5 list (Top 5 Social Media Sites & Platforms 2022 according to Search Engine Journal by the billion)
 - Skills used : CREATE, INSERT SELECT
 ###
 - ST Request: Populate the top 5 social media platforms and have the value of active users(MAU) 
