@@ -82,6 +82,9 @@ INSERT INTO animal_shelter VALUES (13, "dog", "German Shepherd", 1,200);
 INSERT INTO animal_shelter VALUES (14, "dog", "Pitbull", 2,50);
 INSERT INTO animal_shelter VALUES (15, "dog", "Bulldog mix", 3,200);
 ```
+**Result:**
+
+<img src="https://user-images.githubusercontent.com/104226368/202962254-c25ef01d-9c76-495c-932d-21a3fcb36d81.png" width="480" height="350">
 
 ###
 - ST Request: Which animal has adoption fees under $100, sort by cost from lowest to highest. Also make a seperate table with only adoptable cats, sort by age.
@@ -97,5 +100,7 @@ SELECT* FROM animal_shelter WHERE adoption_cost <=100 ORDER BY adoption_cost;
 /*Retrieve: Only adoptable cats, sort by age */
 SELECT* FROM animal_shelter WHERE species = "cat" ORDER BY age_by_year;
 ```
+**Result:**
 
+<img src="https://user-images.githubusercontent.com/104226368/202838274-1a53d43a-74fe-4216-b906-1023028422f3.png" width="480" height="350">
 
