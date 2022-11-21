@@ -102,5 +102,5 @@ SELECT* FROM animal_shelter WHERE species = "cat" ORDER BY age_by_year;
 ```
 **Result:**
 
-<img src="https://user-images.githubusercontent.com/104226368/202838274-1a53d43a-74fe-4216-b906-1023028422f3.png" width="480" height="350">
+<img src="https://user-images.githubusercontent.com/104226368/202962612-1f3c96e5-42d4-47f5-aa18-181e4228944a.png">
 
