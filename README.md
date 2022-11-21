@@ -53,3 +53,49 @@ SELECT* FROM movies WHERE release_year >2000 ORDER BY release_year;
 ```
 **Result:** Populate missing data and organizing the list for movies that were released in the year 2000 ot later and sorting the results
 <img src="https://user-images.githubusercontent.com/104226368/202881078-19ea320a-aa35-44b7-be04-2210483b97d8.png" width="480" height="350">
+
+
+
+#
+## Project: Design a store/organization database (Animal Shelter)
+- Skills used : CREATE, SELECT, ORDER BY, WHERE, NULL
+###
+- ST Request: Create a database that logs the information of animals that are awaiting to be adopted at the shelter
+
+###
+**Steps:**
+```sql
+CREATE TABLE animal_shelter(id INTEGER PRIMARY KEY, species TEXT,breed TEXT,age_by_year INTEGER, adoption_cost INTEGER);
+INSERT INTO animal_shelter VALUES (1, "cat", "British Shorthair", 1,200);
+INSERT INTO animal_shelter VALUES (2, "dog", "Golden Doodle", NULL,100);
+INSERT INTO animal_shelter VALUES (3, "dog", "Beagle", 10,50);
+INSERT INTO animal_shelter VALUES (4, "cat", "American Shorthair", 2,200);
+INSERT INTO animal_shelter VALUES (5, "dog", "Lab-Pitbull mix", 6,50);
+INSERT INTO animal_shelter VALUES (6, "cat", "Ragdoll mix", 1,500);
+INSERT INTO animal_shelter VALUES (7, "cat", "Siamese", 3,500);
+INSERT INTO animal_shelter VALUES (8, "cat", "Unknown-black", 9,50);
+INSERT INTO animal_shelter VALUES (9, "dog", "Corgi mix", 1,500);
+INSERT INTO animal_shelter VALUES (10, "dog", "Pug", 4,200);
+INSERT INTO animal_shelter VALUES (11, "cat", "Siberian", 3,100);
+INSERT INTO animal_shelter VALUES (12, "dog", "Husky", 7,500);
+INSERT INTO animal_shelter VALUES (13, "dog", "German Shepherd", 1,200);
+INSERT INTO animal_shelter VALUES (14, "dog", "Pitbull", 2,50);
+INSERT INTO animal_shelter VALUES (15, "dog", "Bulldog mix", 3,200);
+```
+
+###
+- ST Request: Which animal has adoption fees under $100, sort by cost from lowest to highest. Also make a table with only adoptable cats, sort by age.
+
+###
+**Steps:**
+```sql
+SELECT* FROM animal_shelter;
+/* */
+/*Retrieve: Which animal has adoption fees under $100, sort by cost from lowest to highest*/
+SELECT* FROM animal_shelter WHERE adoption_cost <=100 ORDER BY adoption_cost;
+
+/*Retrieve: Only adoptable cats, sort by age */
+SELECT* FROM animal_shelter WHERE species = "cat" ORDER BY age_by_year;
+```
+
+
