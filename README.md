@@ -106,3 +106,51 @@ SELECT* FROM animal_shelter WHERE species = "cat" ORDER BY age_by_year;
 
 #
 ## Advance SQL
+## Challenge:  Spotify Selected From Top 50 global hits of Winter 2022
+- Skills used : CREATE, SELECT, ORDER BY, WHERE, AND, OR
+###
+
+```sql
+CREATE TABLE songs (
+    id INTEGER PRIMARY KEY,
+    title TEXT,
+    artist TEXT,
+    album TEXT,
+    duration INTEGER,
+    released INTEGER);
+    
+INSERT INTO songs (title, artist, album, duration, released)
+    VALUES ("Rich Flex", "Drake_21 Savage", "Her Loss", 150, 2022);
+INSERT INTO songs (title, artist, album, duration, released)
+    VALUES ("Anti-Hero", "Taylor Swift", "Midnights", 201, 2022);
+INSERT INTO songs (title, artist, album, duration, released)
+    VALUES ("Unholy", "Sam Smith", "Unholy", 210, 2022);
+INSERT INTO songs (title, artist, album, duration, released)
+    VALUES ("As It Was", "Harry Styles", "Harry's House", 152, 2022);
+INSERT INTO songs (title, artist, album, duration, released)
+    VALUES ("Made You Look", "Meghan Trainor", "Takin It Back", 231, 2022);
+INSERT INTO songs (title, artist, album, duration, released)
+    VALUES ("Glimpse of Us", "Joji", "SMITHEREENS", 237, 2022);
+INSERT INTO songs (title, artist, album, duration, released)
+    VALUES ("Die For You", "The Weekend", "Starboy", 260, 2016);
+INSERT INTO songs (title, artist, album, duration, released)
+    VALUES ("All I want for Christmas Is You", "Carly Rae Jepsen", "happy", 241, 1994);    
+    SELECT title FROM songs;
+```
+<img src="https://user-images.githubusercontent.com/104226368/203714321-2d36aa99-6d4c-4224-83b7-ae144dfd5a2a.png" width="380" height="450">
+###
+- ST Request: We've selected random songs from the top 50 most played song in spotify today. Find out which song came from the album Midnights or released in 2022. Find out which song Joji sang after the year or 2020 and had a duration length of 300 seconds. Pull songs that were released before 2022 and order it by release. Find songs that have a duration no longer than 200 seconds
+
+###
+**Steps:**
+```sql
+
+SELECT title FROM songs WHERE album = "Midnights" OR released > 2022;
+SELECT title FROM songs WHERE artist = "Joji" AND released > 2020 AND duration <300 ORDER BY duration;
+
+SELECT title FROM songs WHERE released <2022 ORDER BY released;
+
+SELECT title FROM songs WHERE duration <200 ORDER BY duration;
+```
+**Result:**
+<img src="https://user-images.githubusercontent.com/104226368/203714696-c6987609-0b2f-4a4c-9f7f-eb180bb6400a.png" width="380" height="450">
