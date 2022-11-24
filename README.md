@@ -104,8 +104,7 @@ SELECT* FROM animal_shelter WHERE species = "cat" ORDER BY age_by_year;
 
 <img src="https://user-images.githubusercontent.com/104226368/202962612-1f3c96e5-42d4-47f5-aa18-181e4228944a.png">
 
-#
-## Advance SQL
+# Advance SQL
 ## Challenge:  Spotify Selected From Top 50 global hits of Winter 2022
 - Skills used : CREATE, SELECT, ORDER BY, WHERE, AND, OR
 ###
