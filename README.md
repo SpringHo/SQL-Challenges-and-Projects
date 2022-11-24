@@ -134,7 +134,7 @@ INSERT INTO songs (title, artist, album, duration, released)
     VALUES ("Die For You", "The Weekend", "Starboy", 260, 2016);
 INSERT INTO songs (title, artist, album, duration, released)
     VALUES ("All I want for Christmas Is You", "Carly Rae Jepsen", "happy", 241, 1994);    
-    SELECT title FROM songs;
+    SELECT* FROM songs;
 ```
 <img src="https://user-images.githubusercontent.com/104226368/203714321-2d36aa99-6d4c-4224-83b7-ae144dfd5a2a.png">
 
