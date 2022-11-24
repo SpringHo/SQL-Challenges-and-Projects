@@ -138,8 +138,8 @@ INSERT INTO songs (title, artist, album, duration, released)
     SELECT title FROM songs;
 ```
 <img src="https://user-images.githubusercontent.com/104226368/203714321-2d36aa99-6d4c-4224-83b7-ae144dfd5a2a.png">
-#
 
+#
 ###
 - ST Request: We've selected random songs from the top 50 most played song in spotify today. Find out which song came from the album Midnights or released in 2022. Find out which song Joji sang after the year or 2020 and had a duration length of 300 seconds. Pull songs that were released before 2022 and order it by release. Find songs that have a duration no longer than 200 seconds
 
