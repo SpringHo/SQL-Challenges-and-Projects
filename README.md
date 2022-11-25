@@ -156,4 +156,4 @@ SELECT title FROM songs WHERE duration <200 ORDER BY duration;
 #
 **Result:**
 
-<img src="https://user-images.githubusercontent.com/104226368/203714696-c6987609-0b2f-4a4c-9f7f-eb180bb6400a.png">
+<img src="https://user-images.githubusercontent.com/104226368/203714696-c6987609-0b2f-4a4c-9f7f-eb180bb6400a.png" width="480" height="350">
