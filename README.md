@@ -238,7 +238,7 @@ SELECT name FROM artists WHERE genre = "Pop" );
 ```
 **Result:**
 
-<img src="https://user-images.githubusercontent.com/104226368/203921669-8f9a5e6e-e723-43b9-9e65-841cfffd29ba.png" width="490" height="350">
+<img src="https://user-images.githubusercontent.com/104226368/203921669-8f9a5e6e-e723-43b9-9e65-841cfffd29ba.png" width="500" height="350">
 <img src="https://user-images.githubusercontent.com/104226368/203921891-c0499189-c550-4f9a-aeeb-b87c0c09dcb2.png" width="490" height="350">
 
 
