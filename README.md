@@ -106,7 +106,7 @@ SELECT* FROM animal_shelter WHERE species = "cat" ORDER BY age_by_year;
 
 # Advance SQL
 ## Challenge:  Spotify Selected From Top 50 global hits of Winter 2022
-- Skills used : CREATE, SELECT, ORDER BY, WHERE, AND, OR
+- Skills used : SELECT, FROM, WHERE, ORDER BY
 ###
 
 ```sql
@@ -161,7 +161,7 @@ SELECT title FROM songs WHERE duration <200 ORDER BY duration;
 
 #
 ## Challenge: Create a playlist as requested from the client with their favorite songs
-- Skills used : CREATE, INSERT SELECT
+- Skills used : SELECT, FROM, WHERE, IN
 ###
 - ST Request: 1) Select the title of all the songs by the artist named 'Queen'. 2) Make a 'Pop' playlist. In preparation, select the name of all of the artists from the 'Pop' genre. 3) Add another query that will select the title of all the songs from the 'Pop' artists. It should use IN on a nested subquery that's based on your previous query.
 ###
@@ -244,11 +244,11 @@ SELECT name FROM artists WHERE genre = "Pop" );
 
 #
 ## Challenge: Harry Potter Letter Count 
-- Skills used : CREATE, SELECT, ORDER BY, WHERE
+- Skills used : SELECT, SUM, AS, FROM, GROUP BY, HAVING
 ###
 - ST Request: 1) We've created a database of a few popular authors and their books, with word counts for each book. In this first step, select all the authors who have written more than 1 million words, using GROUP BY and HAVING. Your results table should include the 'author' and their total word count as a 'total_words' column. 2)Select all the authors that write more than an average of 150,000 words per book. Your results table should include the 'author' and average words as an 'avg_words' column.
 
-<details><summary>Click to expand to provided book database</summary>
+<details><summary>Click to expand provided book database</summary>
 <p>
 
 ```sql
