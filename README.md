@@ -248,12 +248,8 @@ SELECT name FROM artists WHERE genre = "Pop" );
 ###
 - ST Request: 1) We've created a database of a few popular authors and their books, with word counts for each book. In this first step, select all the authors who have written more than 1 million words, using GROUP BY and HAVING. Your results table should include the 'author' and their total word count as a 'total_words' column. 2)Select all the authors that write more than an average of 150,000 words per book. Your results table should include the 'author' and average words as an 'avg_words' column.
 
-<details><summary>CLICK ME</summary>
+<details><summary>Click to expand to provided book database</summary>
 <p>
-
-#### We can hide anything, even code!
-
-```
 
 ```sql
 CREATE TABLE books (
@@ -295,7 +291,12 @@ INSERT INTO books (author, title, words)
 INSERT INTO books (author, title, words)
     VALUES ("J.R.R. Tolkien", "Return of the King", 134462);
 ```
-###
+ 
+ ###
+
+ </p>
+</details>
+ 
 **Steps:**
 ```sql
 SELECT author, SUM(words) AS total_words
@@ -308,13 +309,9 @@ HAVING avg_words > 150000;
 
 ```
 
-```
-
- 
-</p>
-</details>
  
 **Result:**
+
 <img src="https://user-images.githubusercontent.com/104226368/204120985-ef92f712-32e8-4988-8711-4ad6eb975dda.png">
 
 #
