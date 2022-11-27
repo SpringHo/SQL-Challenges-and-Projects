@@ -312,6 +312,6 @@ HAVING avg_words > 150000;
  
 **Result:**
 
-<img src="https://user-images.githubusercontent.com/104226368/204120985-ef92f712-32e8-4988-8711-4ad6eb975dda.png">
+<img src="https://user-images.githubusercontent.com/104226368/204120985-ef92f712-32e8-4988-8711-4ad6eb975dda.png" width="480" height="350">
 
 #
